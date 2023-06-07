@@ -12,6 +12,8 @@ router.get("/", (req, res) => {
     });
 });
 
+// router.route("/").get().post()
+
 router.get("/:id", (req, res) => {
   const { id } = req.params;
   bookModel
